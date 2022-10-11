@@ -1,0 +1,9 @@
+const carro = {
+	numeroPuertas: 4,
+};
+
+function puertas(numeroPuertas) {
+	numeroPuertas = numeroPuertas++;
+	return numeroPuertas;
+	puertas(numeroPuertas);
+}
